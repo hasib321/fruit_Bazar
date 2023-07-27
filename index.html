@@ -58,8 +58,8 @@
       <div
         class="navbar bg-white md:bg-white lg:bg-fruit-red rounded-full p-1 md:p-1 lg:p-5"
       >
-        <div class="navbar-start">
-          <div class="dropdown">
+        <div class="navbar-start order-2 md:order-2 lg:order-1">
+          <div class="dropdown ml-36 md:ml-[29rem] lg:ml-0">
             <button class="btn btn-square btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@
 
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base text-black md:text-black lg:text-white font-medium"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box text-base text-black md:text-black lg:text-white font-medium w-[6.375rem] md:w-[6.375rem] lg:w-52 absolute right-0 md:-right-3 lg:right-0"
             >
               <li><a>Home</a></li>
               <li><a>About Us</a></li>
@@ -98,7 +98,9 @@
           </div>
         </div>
 
-        <div class="navbar-center ml-32 md:ml-[28rem] lg:ml-0">
+        <div
+          class="navbar-center ml-0 md:ml-[0] lg:ml-0 order-1 md:order-1 lg:order-2"
+        >
           <img src="images/logo.png" alt="food bazar logo" />
           <h1
             class="font-semibold text-3xl pl-2 text-black md:text-black lg:text-white"
@@ -107,7 +109,7 @@
           </h1>
         </div>
 
-        <div class="navbar-end relative">
+        <div class="navbar-end relative order-3 md:order-3 lg:order-3">
           <input
             type="text"
             placeholder="Search Here"
@@ -228,7 +230,7 @@
 
       <!-- fruit list -->
       <section
-        class="absolute md:ml-0 lg:ml-[5.5rem] -mt-36 hidden md:block lg:block"
+        class="absolute md:-ml-1 lg:ml-[5.5rem] -mt-36 hidden md:block lg:block"
       >
         <div
           class="flex justify-center items-center text-center gap-8 bg-white py-8 px-9 rounded-lg"
